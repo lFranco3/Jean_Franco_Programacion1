@@ -1,10 +1,13 @@
+document.addEventListener('DOMContentLoaded', () => {
 
-document.getElementById('elpepe'); {
-    document.getElementById('elpepe').style.color = 'red';
-}   
+    const runSelectionBtn = document.getElementById('boton');
 
-document.getElementById('boton'); {
-    document.getElementById('boton').style.backgroundColor = 'red'
-}
+    runSelectionBtn.addEventListener('click', () => {
 
+    const fondo = document.getElementById('fondo');
+    fondo.style.background = '#0c0c0c';
+    const letra = document.getElementById('elpepe')
+    letra.style.color = 'red'
 
+});
+})
