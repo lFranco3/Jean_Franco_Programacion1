@@ -1,0 +1,32 @@
+:root {
+    --color-primario: gray;
+    --color-secundario: black;
+    --color-terceario: red;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    padding: 2px;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+    color:var(--color-secundario);
+    background-color: var(--color-terceario);
+    border: solid black 1px;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 20px;
+
+}

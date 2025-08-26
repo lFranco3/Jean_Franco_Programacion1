@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+body {
+    background-color: #FFEEDD;
+}
+
+:root {
+    --color--primario: #9381ff
+    --titulo: Edu NSW ACT Hand Cursive
+    --color--secundario: #effcef
+}
+
+.clase1 h1, p, h2{
+    font-family: Edu NSW ACT Hand Cursive;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: initial;
+    padding: 80px 20px 30px 100px;
+    background-color: aqua;
+    border:solid 2px gold;
+    border-radius: 10px;
+}
+
+p {
+    font-family: Edu NSW ACT Hand Cursive;
+}
+
+nav ol{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.clase2 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color--primario);
+    border-radius: 10px;
+    border: solid 10px var(--color--secundario);
+}
